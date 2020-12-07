@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	$(document).on("scroll",function(){
+		if($(document).scrollTop()>243){
+			$(".header").addClass("fixed-header")
+		}else{
+			$(".header").removeClass("fixed-header");
+		}
+	})
+	$(".burger").on("click",function(){
+		$(".menu").toggle("hidden")
+	})
+})

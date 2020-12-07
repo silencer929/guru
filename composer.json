@@ -1,0 +1,17 @@
+{
+    "name": "mercy/guru",
+    "authors": [
+        {
+            "name": "silencer929",
+            "email": "petermbugua929@gmail.com"
+        }
+    ],
+    "autoload":{
+    	"psr-4":{
+
+    	},
+    	"files":["define.php"]
+    },
+
+    "require": {}
+}
